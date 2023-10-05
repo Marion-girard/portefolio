@@ -1,0 +1,340 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box {
+    position: relative;
+}
+
+.pourcent{
+    position: relative;
+}
+
+
+svg circle {
+    fill:none;
+    stroke: blue;
+    stroke-width: 10px;
+    transform:  translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    animation: circle 2s forwards;
+    stroke-linecap: round;
+    
+}
+
+
+@keyframes circle {
+    to{
+        stroke-dashoffset: 220;
+    }
+}
+
+.language {
+    position: relative;
+    max-width: 100% ;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*.center-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}*/
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+button {
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+
+    user-select: none;
+}
+
+button:focus {
+    outline: 0 none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background: #f2f2f2;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Controls
+---------------------------------------------------------------------- */
+
+.controls {
+    padding: 1rem;
+    background: #333;
+    font-size: 0.1px;
+}
+
+.control {
+    position: relative;
+    display: inline-block;
+    width: 9rem;
+    height: 2.7rem;
+    background: #444;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: background 150ms;
+}
+
+.control:hover {
+    background: #3f3f3f;
+}
+
+
+
+.mixitup-control-active {
+    background: #393939;
+}
+
+.mixitup-control-active[data-toggle]:after {
+    background: transparent;
+}
+
+.control:first-of-type {
+    border-radius: 3px 0 0 3px;
+}
+
+.control:last-of-type {
+    border-radius: 0 3px 3px 0;
+}
+
+
+
+/* Container
+---------------------------------------------------------------------- */
+
+.container {
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    font-size: 0.1px;
+}
+
+.container:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+/* Target Elements
+---------------------------------------------------------------------- */ 
+.control{
+border-top: .5rem solid currentColor;
+}
+.control.green {
+    border-top-color: #91e6c7;
+}
+
+.control.pink {
+    border-top-color: #d595aa;
+}
+
+.control.blue {
+    border-top-color: #5ecdde;
+}
+.control.orange{
+    border-top-color: chocolate;
+}
+img{
+    max-width: 100%;
+ width: 100%;   
+    
+}
+
+
+
+.mix,
+.gap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mix {
+    background: #fff;
+    border-top: .5rem solid currentColor;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.mix.green {
+    color: #91e6c7;
+}
+
+.mix.pink {
+    color: #d595aa;
+}
+
+.mix.blue {
+    color: #5ecdde;
+}
+
+.mix.orange{
+    color: chocolate;
+}
+
+/* Grid Breakpoints
+---------------------------------------------------------------------- */
+
+/* 2 Columns */
+
+.mix,
+.gap {
+    width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+}
+
+/* 3 Columns */
+
+@media screen and (min-width: 541px) {
+    .mix,
+    .gap {
+        width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+    }
+}
+
+/* 4 Columns */
+
+@media screen and (min-width: 961px) {
+    .mix,
+    .gap {
+        width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
+    }
+}
+
+/* 5 Columns */
+
+@media screen and (min-width: 1281px) {
+    .mix,
+    .gap {
+        width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+    }
+}
+
+.overlay {
+    position:fixed;
+    top:0;
+    left:-100%;
+    bottom:0;
+    width:100%;
+    
+    height:100vh;
+    opacity:0;
+    background-color: rgba(0,0,0,0.5);
+    
+    transition:opacity 1s;
+}
+
+.modal {
+    position:fixed;
+    top:10vh;
+    bottom:10vh;
+    left:-100%;
+    width:80%;
+    background-color: #fff;
+    padding:2rem;
+    transition:left 1s ease
+}
+
+.modal.visible {
+    left:10%;
+}
+.overlay.visible {
+    left:0;
+    opacity:1;
+}
+
+/*fancybox */
+
+
