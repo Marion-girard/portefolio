@@ -6,7 +6,8 @@ module.exports = {
     "./resources/**/*.vue",
     "./node_modules/flowbite/**/*.js",
     "./src/**/*.{html,js}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
+    "./node_modules/tw-elements/dist/js/tw-elements.umd.min.js"
+    
   ],
   theme: {
     extend: {},
