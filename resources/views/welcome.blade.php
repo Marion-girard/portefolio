@@ -24,8 +24,8 @@
             <nav class="dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 my-10" >
                 <ul class="flex flex-row list-none  justify-center justify-around">
 
-                    <li class=" no-underline hover:underline bg-white opacity-60 p-2">Moi</li>
-                    <li class=" no-underline hover:underline bg-white opacity-60 p-2">Compétence</li>
+                    <li class=" no-underline hover:underline bg-white opacity-60 p-2"><a href="#moi">Moi</a></li>
+                    <li class=" no-underline hover:underline bg-white opacity-60 p-2"><a href="#competence">Compétence</a></li>
                     <li class=" no-underline hover:underline bg-white opacity-60 p-2">project</li>
                     <button type="button" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Contact</button>
                 </ul>
@@ -42,14 +42,14 @@
                 </div>
 
                 
-                <div class="w-screen h-screen">
-                    <div  class=" profil   flex justify-center items-center ">
-                        <div class="bg-white w-2/5 flex flex-row ">
+                <div class="w-screen h-screen " id="moi">
+                    <div  class=" profil   flex justify-center items-center mt-52">
+                        <div class="bg-white w-72 flex flex-row ">
                             <h2> profil </h2>
                             <div>Image</div>
 
-                            <article> <p>Bienvenue sur mon portefolio, <br>
-                                Je suis une développeuse web en formation à la 3W Accadémie.Je suis passionné de web depuis quelque anné.j’ai pu apprendre les base de python et de C++.Ici vous allez pouvoir en apprendre plus sur mes compétence</p>
+                            <article class="text-center"> <p>Bienvenue sur mon portefolio, <br>
+                                Je suis une développeur web en formation à la 3W Accadémie. <br>Je suis passionné de web depuis quelque anné.<br>j’ai pu apprendre les base de python et de C++<br>Ici vous allez pouvoir en apprendre plus sur mes compétence </p>
                             </article>
                         </div>
                         
@@ -62,84 +62,104 @@
                     data-te-ride="carousel">
                     <!--Carousel items-->
                         <div
-                            class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                            class="relative w-96 overflow-hidden after:clear-both after:block after:content-['']">
                             <!--First item-->
                             <div
-                                class="relative float-left -mr-[100%] w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
+                                class="relative float-left -mr-[100%]  transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
                                 data-te-carousel-item
                                 data-te-carousel-active>
                                 <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-                                class="block w-full"
+                                class="block "
                                 alt="Wild Landscape" />
                             </div>
                             <!--Second item-->
                             <div
-                                class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
+                                class="relative float-left -mr-[100%] hidden transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
                                 data-te-carousel-item>
                                 <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-                                class="block w-full"
+                                class="block "
                                 alt="Camera" />
                             </div>
                             <!--Third item-->
                             <div
-                                class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
+                                class="relative float-left -mr-[100%] hidden  transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
                                 data-te-carousel-item>
                                 <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-                                class="block w-full"
+                                class="block"
                                 alt="Exotic Fruits" />
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600">
-                    <div
-                        class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                        style="width: 25%">
-                        25%
+                <div class="w-screen h-screen " id="competence">
+                    <div class="text-white"><p> Soft Skill </p> </div>
+                    <div class=" flex flex-row">
+                        <p class="text-white my-2"> Créativité </p>
+                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
+                            <div
+                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                style="width: 25%">
+                                25%
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600">
-                    <div
-                        class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                        style="width: 25%">
-                        25%
+                    <div class=" flex flex-row">
+                        <p class="text-white my-2"> Sens de l'écoute </p>
+                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
+                            <div
+                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                style="width: 25%">
+                                25%
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600">
-                    <div
-                        class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                        style="width: 25%">
-                        25%
+                    <div class=" flex flex-row">
+                        <p class="text-white my-2"> Réactivité </p>
+                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
+                            <div
+                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                style="width: 25%">
+                                25%
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600">
-                    <div
-                        class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                        style="width: 25%">
-                        25%
+                    <div class=" flex flex-row">
+                        <p class="text-white my-2"> Esprit critique </p>
+                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
+                            <div
+                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                style="width: 25%">
+                                25%
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600">
-                    <div
-                        class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                        style="width: 25%">
-                        25%
+                    <div class=" flex flex-row">
+                        <p class="text-white my-2"> Détermination </p>
+                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
+                            <div
+                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                style="width: 25%">
+                                25%
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600">
-                    <div
-                        class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                        style="width: 25%">
-                        25%
+                    <div class=" flex flex-row">
+                        <p class="text-white my-2"> Curiosité </p>
+                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
+                            <div
+                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                style="width: 25%">
+                                25%
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>    
