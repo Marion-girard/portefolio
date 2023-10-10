@@ -95,71 +95,116 @@
                     </div>
 
                 </div>
-                <div class="w-screen h-screen " id="competence">
-                    <div class="text-white"><p> Soft Skill </p> </div>
-                    <div class=" flex flex-row">
-                        <p class="text-white my-2"> Créativité </p>
-                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
-                            <div
-                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
-                                style="width: 25%">
-                                25%
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" flex flex-row">
-                        <p class="text-white my-2"> Sens de l'écoute </p>
-                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
-                            <div
-                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
-                                style="width: 25%">
-                                25%
-                            </div>
-                        </div>
-                    </div>
+                <div class="w-screen h-screen" id="competence">
+                    <div class="mt-44 mx-6">
+                        <div class="text-white"><p> Soft Skill </p> </div>
 
-                    <div class=" flex flex-row">
-                        <p class="text-white my-2"> Réactivité </p>
-                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
-                            <div
-                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
-                                style="width: 25%">
-                                25%
-                            </div>
-                        </div>
-                    </div>
+                        <table class="table-auto mx-6 mt-4">
+                            <tr> 
+                                <div class=" flex flex-row mx-2">
+                                    <td><p class="text-white my-2"> Créativité </p> </td>
+                                    <td  class="w-3/4" >
+                                        <div class=" bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full mx-2">
+                                            <div
+                                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                                style="width: 25%">
+                                                25%
+                                            </div>
+                                        </div>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class=" flex flex-row mx-2">
+                                    <td><p class="text-white my-2"> Sens de l'écoute </p> </td>
+                                    <td  class="w-3/4">
+                                        <div class=" bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full mx-2">
+                                            <div
+                                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                                style="width: 25%">
+                                                25%
+                                            </div>
+                                        </div>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class=" flex flex-row">
+                                    <td><p class="text-white my-2"> Réactivité </p> </td>
+                                    <td class="w-1/2">
+                                        <div class=" bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full mx-2">
+                                            <div
+                                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                                style="width: 25%">
+                                                25%
+                                            </div>
+                                        </div>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class=" flex flex-row">
+                                    <td><p class="text-white my-2"> Esprit critique </p> </td>
+                                    <td class="w-1/2">
+                                        <div class="bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full mx-2">
+                                            <div
+                                            class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                            style="width: 25%">
+                                            25%
+                                            </div>
+                                        </div>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class=" flex flex-row">
+                                    <td><p class="text-white my-2"> Détermination </p></td>
+                                    <td class="w-1/2">
+                                        <div class="bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full mx-2">
+                                            <div
+                                            class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                            style="width: 25%">
+                                                25%
+                                            </div>
+                                        </div>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class=" flex flex-row">
+                                    <td><p class="text-white my-2"> Curiosité </p></td>
+                                    <td class="w-1/2">
+                                        <div class="bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full mx-2">
+                                            <div
+                                            class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
+                                            style="width: 25%">
+                                            25%
+                                            </div>
+                                        </div>
+                                    </td>
+                                </div>
+                            </tr>
+                        </table>
 
-                    <div class=" flex flex-row">
-                        <p class="text-white my-2"> Esprit critique </p>
-                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
-                            <div
-                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
-                                style="width: 25%">
-                                25%
+                        <div class="mt">
+                            <div class="text-white"><p> Hard Skill </p> </div>
+                            <div class="grid grid-cols-4 gap-12 justify-center items-center mx-40">
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center "> HTML</div>
+                                <div class="bg-white w-30  h-10 text-center flex justify-center items-center "> CSS</div>
+                                <div class="bg-white w-30  h-10 text-center flex justify-center items-center "> PHP</div>
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center "> MySQL</div>
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center "> Figma</div>
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center ">Laravel</div>
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center">Git</div>
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center ">Trelo</div>
+                            </div>
+                            <div class="grid grid-cols-3 gap-12 justify-center items-center mx-60 mt-12">
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center ">Vu.js</div>
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center ">Wordpress</div>
+                                <div class="bg-white w-30 h-10 text-center flex justify-center items-center ">Notion</div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class=" flex flex-row">
-                        <p class="text-white my-2"> Détermination </p>
-                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
-                            <div
-                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
-                                style="width: 25%">
-                                25%
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class=" flex flex-row">
-                        <p class="text-white my-2"> Curiosité </p>
-                        <div class="w-1/4 bg-neutral-200 dark:bg-neutral-600 my-2 rounded-full">
-                            <div
-                                class="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100 rounded-full"
-                                style="width: 25%">
-                                25%
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>    
